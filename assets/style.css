@@ -1,5 +1,9 @@
 :root {
-    background-color: rgb(14, 14, 14);
+    --text-color: #DBE4EF;
+    --cart-front-color: #144480;
+    --card-black-color: #004f40BF;
+
+
 }
 
 
