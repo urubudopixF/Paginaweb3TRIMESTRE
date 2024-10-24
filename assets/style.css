@@ -27,6 +27,8 @@ body {
     background-color: var(--cart-front-color);
     text-align: center;
     height: 100%;
+    transform-style: preserve-3d;
+    transition: ;
 }
 
 .cartao__conteudo h3 {
@@ -44,13 +46,28 @@ body {
     padding: 2rem;
 }
 
-.cartao__conteudo__pergunta {
+.cartao__conteudo__pergunta p {
     color: var(--text-color);
+    font-weight: 500;
 }
 
-.cartao__conteudo__resposta {
+.cartao__conteudo__resposta p {
     color: var(--card-black-color)
+    font-weight: 500;
 }
+
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
 
 
 
