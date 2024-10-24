@@ -1,14 +1,12 @@
 :root {
-    --text-color: #1f5eac;
-    --cart-front-color: #144480;
-    --card-black-color: #004f40BF;
-
-
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
 }
 
 
 body {
-    background: url('alura.avif');
+    background: url('img/bg-desktop.webp');
     font-family: Bai Jamjuree;
 }
 
@@ -28,7 +26,7 @@ body {
     text-align: center;
     height: 100%;
     transform-style: preserve-3d;
-    transition: ;
+    transition: transform;
 }
 
 .cartao__conteudo h3 {
